@@ -35,15 +35,23 @@ header {
 }
 
 main{
-
+    padding: 20px;
+    background-color:rgb(255, 244, 244);
 }
 
 h1 {
     color: rgb(159, 51, 23);
+    padding: 0px 0 5px 0;
 }
 
 h2 {
     color: rgb(110, 54, 51);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0 0 5px 40px;
 }
 
 footer {
