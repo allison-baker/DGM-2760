@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #121212;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 50px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(159, 51, 23);
+    padding: 0px 0 5px 0;
+}
+
+h2 {
+    color: rgb(110, 54, 51);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0 0 5px 40px;
+}
+
+footer {
+    background-color: rgb(111, 39, 39);
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
