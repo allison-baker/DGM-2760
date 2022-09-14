@@ -1,4 +1,5 @@
-document.querySelector("#title").innerText = "Inspector Clouseau";
+document.querySelector('#title').innerText = 'Inspector Clouseau';
+document.querySelector('#subtitle').innerText = 'This is Chief Inspector Clouseau on the pheaun'
 
 function reDisplay() {
   let windowSize = `Window size is ${window.innerWidth} pixels wide by ${window.innerHeight} pixels tall.`;
