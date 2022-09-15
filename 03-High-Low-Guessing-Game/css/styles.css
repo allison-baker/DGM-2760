@@ -80,7 +80,7 @@ button {
 
 article div {
     background-color:rgb(245, 235, 255);
-    min-height: 150px;
+    height: 150px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,11 @@ article div {
 #attempts {
     font-size: 4rem;
     font-weight: 200;
+}
+
+#ribbon {
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
