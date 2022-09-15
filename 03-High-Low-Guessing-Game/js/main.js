@@ -34,20 +34,23 @@ function evalGuess() {
 }
 
 function giveAward() {
+    let ribbon = document.createElement('img');
     let award = document.querySelector('#ribbon');
 
     switch(totalGuesses) {
         case 1:
         case 2:
         case 3:
-            award.style.backgroundImage = 'url(../images/blue.png)';
+            ribbon.src = 'images/blue.png';
             break;
         case 4:
         case 5:
         case 6:
-            award.style.backgroundImage = 'url(../images/red.png)';
+            ribbon.src = 'images/red.png';
             break;
         default:
-            award.style.backgroundImage = 'url(../images/yellow.png)';
+            ribbon.src = 'images/yellow.png';
     }
+
+    award.appendChild(ribbon);
 }

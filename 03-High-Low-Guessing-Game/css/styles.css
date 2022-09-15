@@ -93,9 +93,9 @@ article div {
     font-weight: 200;
 }
 
-#ribbon {
-    background-size: cover;
-    background-position: center;
+#ribbon img {
+    height: 100px;
+    width: auto;
 }
 
 footer {
