@@ -8,7 +8,7 @@
 body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: rgb(250, 246, 255);
+    background-color: rgb(245, 235, 255);
 }
 
 header {
@@ -52,8 +52,49 @@ ul {
     padding: 0 0 5px 40px;
 }
 
+div.game {
+    display: flex;
+}
+
+article {
+    width: 25%;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(159, 23, 107);
+    margin: 5px 0;
+}
+
+button {
+    padding: 6px;
+    background-color: rgb(159, 23, 107);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 40%;
+}
+
+article div {
+    background-color:rgb(245, 235, 255);
+    min-height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#attempts {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
 footer {
-    background-color: rgb(64, 140, 140);
+    background-color: rgb(86, 153, 168);
     padding: 20px 0;
 }
 
