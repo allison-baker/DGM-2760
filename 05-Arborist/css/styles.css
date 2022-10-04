@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: rgb(41, 9, 9);
+    background-color: rgb(9, 41, 22);
 }
 
 header {
@@ -26,7 +26,6 @@ header {
     color: white;
     font-size: 3.5rem;
     font-weight: 200;
-    font-family: 'Metamorphous', cursive;
 }
 
 #subtitle {
@@ -39,13 +38,12 @@ main {
 }
 
 h1 {
-    color: rgb(204, 54, 84);
+    color: rgb(99, 84, 61);
     padding: 0px 0 5px 0;
-    font-family: 'Metamorphous', cursive;
 }
 
 h2 {
-    color: rgb(135, 101, 77);
+    color: rgb(46, 88, 63);
     padding: 10px 0;
 }
 
@@ -54,10 +52,39 @@ ul {
     padding: 0 0 5px 40px;
 }
 
+hr {
+    margin: 10px;
+    background-color: rgb(9, 41, 22);
+}
 
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+article .list {
+    width: 45%;
+}
+
+button {
+    background-color: rgb(99, 84, 61);
+    color: #fff;
+    padding: 15px;
+    width: 75%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
 
 footer {
-    background-color: rgb(135, 101, 77);
+    background-color: rgb(46, 88, 63);
     padding: 20px 0;
 }
 
