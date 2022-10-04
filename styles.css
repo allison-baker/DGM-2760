@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(11, 9, 41);
+}
+
+header {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#title {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+#subtitle {
+    color: white;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(195, 73, 96);
+    padding: 0px 0 5px 0;
+}
+
+h2 {
+    color: rgb(114, 68, 108);
+    padding: 10px 0;
+}
+
+p {
+    padding: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color:rgb(28, 126, 158);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(88, 46, 82);
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
