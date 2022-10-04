@@ -1,22 +1,37 @@
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <title>04 Fortune Teller</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 id="title"></h1>
-        <h2 id="subtitle"></h2>
+      <h1 id="title"></h1>
+      <h2 id="subtitle"></h2>
     </header>
     <main>
+      <h1>Fortune Teller</h1>
+      <h2>What I Learned</h2>
+      <ul class="objectives">
+        <li>Generate random numbers</li>
+        <li>Use Math functions</li>
+        <li>Pass values to and return values from a function</li>
+        <li>Use switch statements</li>
+        <li>Concatenate a string</li>
+      </ul>
 
+      <h2>Have Your Fortune Revealed</h2>
+      <button onclick="tellFortune()">Read my fortune!</button>
+      <p id="fortune">Click the button for your fortune to appear here!</p>
     </main>
     <footer>
-        <p>Assignment for DGM 2760 &bull; © Al Baker 2022</p>
+      <p>Assignment for DGM 2760 &bull; © Al Baker 2022</p>
     </footer>
     <script type="text/javascript" src="js/main.js"></script>
-</body>
+  </body>
 </html>
