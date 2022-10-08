@@ -83,6 +83,11 @@ button {
     border-radius: 10px;
 }
 
+span {
+    font-weight: bold;
+    color:rgb(99, 84, 61);
+}
+
 footer {
     background-color: rgb(46, 88, 63);
     padding: 20px 0;
