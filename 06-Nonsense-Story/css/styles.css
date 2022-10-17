@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+    --background: rgb(41, 32, 9);
+    --main: rgb(88, 46, 46);
+    --accent: rgb(61, 74, 99);
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: var(--background);
+}
+
+header {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000
+}
+
+#title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+#subtitle {
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--accent);
+    padding: 0px 0 5px 0;
+}
+
+h2 {
+    color: var(--main);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0 0 5px 40px;
+}
+
+hr {
+    margin: 10px;
+    background-color: var(--background);
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+article .list {
+    width: 45%;
+}
+
+button {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 15px;
+    width: 75%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: bold;
+    color:var(--accent);
+}
+
+footer {
+    background-color: var(--main);
+    padding: 20px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
