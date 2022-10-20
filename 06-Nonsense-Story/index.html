@@ -3,6 +3,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <title>06 Nonsense Story</title>
   </head>
@@ -24,6 +27,44 @@
         <li>Change a string to all lowercase</li>
         <li>Wild character substitution</li>
       </ul>
+
+      <hr />
+
+      <p>
+        The textareas below are prefilled with example text, but feel free to change the words in the text boxes to
+        switch up the story! Then press the button when you're ready.
+      </p>
+
+      <div>
+        <article>
+          <h2>Seven Nouns</h2>
+          <textarea id="nouns">
+Horse Ridge
+Brake
+Truck
+Office Cow
+Shovel</textarea
+          >
+        </article>
+        <article>
+          <h2>Three Adjectives</h2>
+          <textarea id="adjectives">
+Beautiful
+Adorable
+Edible</textarea
+          >
+        </article>
+        <article>
+          <h2>Two Verbs</h2>
+          <textarea id="verbs">
+Run
+Cry</textarea
+          >
+        </article>
+      </div>
+
+      <button onclick="tellStory()">Tell the Story!</button>
+      <p id="story"></p>
     </main>
     <footer>
       <p>Assignment for DGM 2760 &bull; © Al Baker 2022</p>

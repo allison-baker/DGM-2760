@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-image: url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 305px;
@@ -31,8 +31,9 @@ header {
 
 #title {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 200;
+    font-family: 'Boogaloo', cursive;
 }
 
 #subtitle {
@@ -60,39 +61,41 @@ ul {
 }
 
 hr {
-    margin: 10px;
+    margin: 15px 0;
     background-color: var(--background);
+    height: 2px;
+    border: none;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
 }
 
 article {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-article .buttons {
-    display: flex;
     flex-direction: column;
-    width: 45%;
+    justify-content: space-between;
+    width: 30%;
 }
 
-article .list {
-    width: 45%;
+textarea {
+    height: 7rem;
 }
 
 button {
     background-color: var(--accent);
     color: #fff;
     padding: 15px;
-    width: 75%;
+    width: 30%;
     margin: 10px 0;
     border: none;
     border-radius: 10px;
 }
 
 span {
+    color: var(--main);
     font-weight: bold;
-    color:var(--accent);
 }
 
 footer {
