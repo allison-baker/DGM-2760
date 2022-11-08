@@ -31,18 +31,45 @@
       <hr />
 
       <h2>Crust Options</h2>
+      <input type="radio" id="thin" name="crust" value="thin" />
+      <label for="thin">Thin</label>
+      <input type="radio" id="standard" name="crust" value="standard" checked/>
+      <label for="standard">Standard</label>
+      <input type="radio" id="thick" name="crust" value="thick" />
+      <label for="thick">Thick</label>
 
       <h2>Toppings Options</h2>
+      <input type="radio" id="cheese" name="topping" value="cheese" checked/>
+      <label for="cheese">Cheese</label>
+      <input type="radio" id="pepperoni" name="topping" value="pepperoni" />
+      <label for="pepperoni">Pepperoni</label>
+      <input type="radio" id="allMeat" name="topping" value="allMeat" />
+      <label for="allMeat">All Meat</label>
+      <input type="radio" id="hawaiian" name="topping" value="hawaiian" />
+      <label for="hawaiian">Hawaiian</label>
+      <input type="radio" id="veggie" name="topping" value="veggie" />
+      <label for="veggie">Garden</label>
+      <input type="radio" id="bbq" name="topping" value="bbq" />
+      <label for="bbq">Barbeque Chicken</label>
 
       <h2>Size Options</h2>
+      <input type="radio" id="small" name="size" value="small" />
+      <label for="small">Small</label>
+      <input type="radio" id="medium" name="size" value="medium" />
+      <label for="medium">Medium</label>
+      <input type="radio" id="large" name="size" value="large" checked/>
+      <label for="large">Large</label>
+      <input type="radio" id="xl" name="size" value="xl" />
+      <label for="xl">Extra Large</label>
 
       <h2>Time to Eat</h2>
-      <button>Build Pizza</button>
+      <button id="build">Build Pizza</button>
 
       <h2>Shopping List</h2>
-      <button>Shopping List</button>
+      <button id="shopping">Shopping List</button>
 
       <h2>Messages back to the user</h2>
+      <p id="messages"></p>
     </main>
     <footer>
       <p>Assignment for DGM 2760 &bull; © Al Baker 2022</p>
