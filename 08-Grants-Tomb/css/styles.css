@@ -67,14 +67,22 @@ hr {
     border: none;
 }
 
+#stem, #feedback {
+    background-color: var(--background);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
 button {
     background-color: var(--accent);
     color: #fff;
     padding: 15px;
-    width: 30%;
-    margin: 10px 0;
+    width: 100%;
+    margin: 5px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Neucha', cursive;
 }
 
