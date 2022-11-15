@@ -5,9 +5,9 @@
 }
 
 :root {
-    --background: rgb(25, 31, 27);
-    --main: rgb(44, 60, 33);
-    --accent: rgb(64, 94, 105);
+    --background: rgb(192, 160, 116);
+    --main: rgb(33, 41, 60);
+    --accent: rgb(132, 41, 41);
 }
 
 body {
@@ -32,10 +32,6 @@ header {
     color: #fff;
     font-size: 4.5rem;
     font-weight: 200;
-}
-
-#subtitle {
-    color: #fff;
 }
 
 main {
