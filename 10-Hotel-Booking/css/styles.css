@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: rgb(51, 126, 139);
+    --main: rgb(36, 97, 41);
+    --accent: rgb(160, 113, 27);
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: var(--background);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000
+}
+
+#title {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+
+#subtitle {
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--accent);
+    padding: 0px 0 5px 0;
+}
+
+h2 {
+    color: var(--main);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0 0 5px 40px;
+}
+
+hr {
+    margin: 15px 0;
+    background-color: var(--background);
+    height: 2px;
+    border: none;
+}
+
+button {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Neucha', cursive;
+}
+
+footer {
+    background-color: var(--main);
+    padding: 20px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
