@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": 100,
+            "gym": "yes",
+            "types": ["Double King", " Single King", " Queen", " Double"],
+            "address": "258 Broadway Street",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": 50,
+            "gym": "no",
+            "types": ["King ", " Queen ", " Double"],
+            "address": "372 Hollywood Avenue",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": 75,
+            "gym": "yes",
+            "types": ["Double King", " Single King", " Queen"],
+            "address": "795 Columia Boulevard",
+            "picture": "room3.jpg"
+        }
+    ]
+}

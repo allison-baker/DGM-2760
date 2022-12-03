@@ -54,6 +54,10 @@ h2 {
     padding: 10px 0;
 }
 
+h3 {
+    color: var(--accent);
+}
+
 ul {
     list-style-type: circle;
     padding: 0 0 5px 40px;
@@ -66,15 +70,38 @@ hr {
     border: none;
 }
 
-button {
+.hotels {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.hotels li {
+    list-style-type: none;
+}
+
+.hotels a {
+    display: block;
     background-color: var(--accent);
+    padding: 20px;
+    margin-right: 15px;
+    text-decoration: none;
     color: #fff;
-    padding: 15px;
-    width: 100%;
-    margin: 5px 0;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Neucha', cursive;
+    border-radius: 5px;;
+}
+
+.info {
+    border: 2px solid var(--background);
+    border-radius: 30px;
+    padding: 20px;
+    color: var(--background);
+    margin: 10px 0;
+    width: 50%;
+}
+
+#picture {
+    width: 300px;
+    height: auto;
 }
 
 footer {
