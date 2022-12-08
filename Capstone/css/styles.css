@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #D93D27;
+    --orange: #EFA53A;
+    --light_blue: #CCF4FE;
+    --dark_blue: #626EDA;
+    --light_purple: #924F9E;
+    --dark_purple: #361A29;
+}
+
+@font-face {
+    font-family: 'Marvel-Regular';
+    src: url("../Marvel-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+header {
+    background-color: var(--red);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Marvel-Regular', sans-serif;
+    font-size: 5rem;
+}
+
+#topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--dark_blue);
+    padding: 0px 0 5px 0;
+    text-align: center;
+}
+
+button {
+    background-color: var(--orange);
+    color: #fff;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+#info {
+    background-color: var(--light_blue);
+    min-height: 60%;
+}
+
+footer {
+    background-color: var(--red);
+    padding: 20px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
