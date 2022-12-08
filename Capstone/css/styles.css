@@ -59,11 +59,57 @@ button {
     border: none;
     border-radius: 5px;
     font-family: 'Arial Narrow', sans-serif;
+    font-size: 1rem;
 }
 
 #info {
     background-color: var(--light_blue);
-    min-height: 60%;
+    min-height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info div {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info img {
+    width: 200px;
+    height: auto;
+}
+
+#info h3 {
+    padding: 10px 0;
+    color: var(--light_purple);
+}
+
+p {
+    color: #000;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#info div a {
+    display: block;
+    background-color: var(--dark_purple);
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#info a {
+    padding-top: 25px;
+    color: var(--dark_blue);
 }
 
 footer {
