@@ -1,2 +1,2 @@
-# Welcome to my class repository!
-Here I will keep all my code for my DGM 2760 class at Utah Valley University.
+# DGM 2760
+Assignments for my Digital Media 2760 Web Languages I class at Utah Valley University.
