@@ -58,11 +58,11 @@ p {
 }
 
 button {
-    background-color:rgb(28, 126, 158);
     border: none;
     border-radius: 10px;
     width: 200px;
     margin: 10px 0;
+    background-color:rgb(28, 126, 158);
 }
 
 button a {
@@ -70,6 +70,10 @@ button a {
     padding: 15px;
     color: white;
     text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(8, 91, 119);
 }
 
 footer {
